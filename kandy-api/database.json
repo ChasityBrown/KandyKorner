@@ -1,0 +1,75 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "name": "The OG",
+            "address": "123 Main St.",
+            "capacity": 35,
+            "employeeId": 0
+        },
+        {
+            "id": 1,
+            "name": "The Latest",
+            "address": "123 Cooper St.",
+            "capacity": 50,
+            "employeeId": 0
+        },
+        {
+            "id": 1,
+            "name": "The Baby",
+            "address": "123 Dro St.",
+            "capacity": 15,
+            "employeeId": 0
+        }
+    ],
+    "products": [
+        {"id": 1,
+        "name": "Fantastic Plastic Popper",
+        "price": 3,
+        "productTypeId": 0
+    },  {"id": 2,
+        "name": "Rustic Soft Chew",
+        "price": 2,
+        "productTypeId": 0
+    },  {"id": 3,
+        "name": "Incredible Cotton Candy",
+        "price": 5,
+        "productTypeId": 0
+    },  {"id": 4,
+        "name": "Fantastic Rubber Bears",
+        "price": 3,
+        "productTypeId": 0
+    },  {"id": 5,
+        "name": "Practical Frozen Worms",
+        "price": 7,
+        "productTypeId": 0
+    }
+    ],
+    "employees": [
+        {"id": 1,
+        "name": "Boyd",
+        "locationId": 0},
+        {"id": 2,
+        "name": "Dominic",
+        "locationId": 0},
+        {"id": 3,
+        "name": "Hallie",
+        "locationId": 0},
+        {"id": 4,
+        "name": "Coleman",
+        "locationId": 0},
+        {"id": 5,
+        "name": "Danny",
+        "locationId": 0}
+    ],
+    "productTypes": [
+        {"id": 1,
+        "type": "gummies"}
+    ],
+    "customers": [
+        {}
+    ],
+    "purchases": [
+        {}
+    ]
+}

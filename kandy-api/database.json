@@ -26,23 +26,23 @@
         {"id": 1,
         "name": "Fantastic Plastic Popper",
         "price": 3,
-        "productTypeId": 0
+        "productTypeId": 1
     },  {"id": 2,
         "name": "Rustic Soft Chew",
         "price": 2,
-        "productTypeId": 0
+        "productTypeId": 3
     },  {"id": 3,
         "name": "Incredible Cotton Candy",
         "price": 5,
-        "productTypeId": 0
+        "productTypeId": 1
     },  {"id": 4,
         "name": "Fantastic Rubber Bears",
         "price": 3,
-        "productTypeId": 0
+        "productTypeId": 1
     },  {"id": 5,
         "name": "Practical Frozen Worms",
         "price": 7,
-        "productTypeId": 0
+        "productTypeId": 3
     }
     ],
     "employees": [

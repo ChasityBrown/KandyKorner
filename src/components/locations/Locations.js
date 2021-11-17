@@ -16,11 +16,11 @@ export const Locations = () => { //function/component that will render html with
     )
     return (
         <>
-        <h1></h1>
+        <h2>Locations</h2>
         {
             locations.map(
                 (locationObject) => { 
-                    return <h2 key= {`location--${locationObject.id}`}>{locationObject.name}</h2>
+                    return <h3 key= {`location--${locationObject.id}`}>{locationObject.name}</h3>
                 }
             )
         }

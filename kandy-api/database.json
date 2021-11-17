@@ -64,10 +64,31 @@
     ],
     "productTypes": [
         {"id": 1,
-        "type": "gummies"}
+        "type": "gummies"},
+        {"id": 2,
+        "type": "chocolate"},
+        {"id": 3,
+        "type": "sour"}
     ],
     "customers": [
-        {}
+        {"id": 1,
+        "name": "Connie",
+        "address": "38360 Kuphal Vista"},
+        {"id": 2,
+        "name": "Saul",
+        "address": "417 Jacobson Valleys"},
+        {"id": 3,
+        "name": "Maurine",
+        "address": "99421 Homenick Shore"},
+        {"id": 4,
+        "name": "Eryn",
+        "address": "74836 Koby Port"},
+        {"id": 5,
+        "name": "Jessika",
+        "address": "675 Emmett Alley"},
+        {"id": 6,
+        "name": "Derek",
+        "address": "908 Judge Drives"}
     ],
     "purchases": [
         {}

@@ -1,96 +1,161 @@
 {
-    "locations": [
-        {
-            "id": 1,
-            "name": "The OG",
-            "address": "123 Main St.",
-            "capacity": 35,
-            "employeeId": 0
-        },
-        {
-            "id": 1,
-            "name": "The Latest",
-            "address": "123 Cooper St.",
-            "capacity": 50,
-            "employeeId": 0
-        },
-        {
-            "id": 1,
-            "name": "The Baby",
-            "address": "123 Dro St.",
-            "capacity": 15,
-            "employeeId": 0
-        }
-    ],
-    "products": [
-        {"id": 1,
-        "name": "Fantastic Plastic Popper",
-        "price": 3,
-        "productTypeId": 1
-    },  {"id": 2,
-        "name": "Rustic Soft Chew",
-        "price": 2,
-        "productTypeId": 3
-    },  {"id": 3,
-        "name": "Incredible Cotton Candy",
-        "price": 5,
-        "productTypeId": 1
-    },  {"id": 4,
-        "name": "Fantastic Rubber Bears",
-        "price": 3,
-        "productTypeId": 1
-    },  {"id": 5,
-        "name": "Practical Frozen Worms",
-        "price": 7,
-        "productTypeId": 3
+  "locations": [
+    {
+      "id": 1,
+      "name": "The OG",
+      "address": "123 Main St.",
+      "capacity": 35
+    },
+    {
+      "id": 2,
+      "name": "The Latest",
+      "address": "123 Cooper St.",
+      "capacity": 50
+    },
+    {
+      "id": 3,
+      "name": "The Baby",
+      "address": "123 Dro St.",
+      "capacity": 15
     }
-    ],
-    "employees": [
-        {"id": 1,
-        "name": "Boyd",
-        "locationId": 0},
-        {"id": 2,
-        "name": "Dominic",
-        "locationId": 0},
-        {"id": 3,
-        "name": "Hallie",
-        "locationId": 0},
-        {"id": 4,
-        "name": "Coleman",
-        "locationId": 0},
-        {"id": 5,
-        "name": "Danny",
-        "locationId": 0}
-    ],
-    "productTypes": [
-        {"id": 1,
-        "type": "gummies"},
-        {"id": 2,
-        "type": "chocolate"},
-        {"id": 3,
-        "type": "sour"}
-    ],
-    "customers": [
-        {"id": 1,
-        "name": "Connie",
-        "address": "38360 Kuphal Vista"},
-        {"id": 2,
-        "name": "Saul",
-        "address": "417 Jacobson Valleys"},
-        {"id": 3,
-        "name": "Maurine",
-        "address": "99421 Homenick Shore"},
-        {"id": 4,
-        "name": "Eryn",
-        "address": "74836 Koby Port"},
-        {"id": 5,
-        "name": "Jessika",
-        "address": "675 Emmett Alley"},
-        {"id": 6,
-        "name": "Derek",
-        "address": "908 Judge Drives"}
-    ],
-    "purchases": [
-        {}
-    ]
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Fantastic Plastic Popper",
+      "price": 3,
+      "productTypeId": 1
+    },
+    {
+      "id": 2,
+      "name": "Rustic Soft Chew",
+      "price": 2,
+      "productTypeId": 3
+    },
+    {
+      "id": 3,
+      "name": "Incredible Cotton Candy",
+      "price": 5,
+      "productTypeId": 1
+    },
+    {
+      "id": 4,
+      "name": "Fantastic Rubber Bears",
+      "price": 3,
+      "productTypeId": 1
+    },
+    {
+      "id": 5,
+      "name": "Practical Frozen Worms",
+      "price": 7,
+      "productTypeId": 3
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Boyd",
+      "locationId": 1,
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": 17
+    },
+    {
+      "id": 2,
+      "name": "Dominic",
+      "locationId": 2,
+      "manager": false,
+      "fullTime": false,
+      "hourlyRate": 9
+    },
+    {
+      "id": 3,
+      "name": "Hallie",
+      "locationId": 3,
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": 17
+    },
+    {
+      "id": 4,
+      "name": "Coleman",
+      "locationId": 1,
+      "manager": false,
+      "fullTime": true,
+      "hourlyRate": 13
+    },
+    {
+      "id": 5,
+      "name": "Danny",
+      "locationId": 2,
+      "manager": false,
+      "fullTime": false,
+      "hourlyRate": 9
+    },
+    {
+      "name": "Chasity Brown",
+      "locationId": 1,
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": "25",
+      "id": 6
+    },
+    {
+      "name": "Brown",
+      "locationId": "2",
+      "manager": true,
+      "fullTime": false,
+      "hourlyRate": "23",
+      "id": 7
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "gummies"
+    },
+    {
+      "id": 2,
+      "type": "chocolate"
+    },
+    {
+      "id": 3,
+      "type": "sour"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Connie",
+      "address": "38360 Kuphal Vista"
+    },
+    {
+      "id": 2,
+      "name": "Saul",
+      "address": "417 Jacobson Valleys"
+    },
+    {
+      "id": 3,
+      "name": "Maurine",
+      "address": "99421 Homenick Shore"
+    },
+    {
+      "id": 4,
+      "name": "Eryn",
+      "address": "74836 Koby Port"
+    },
+    {
+      "id": 5,
+      "name": "Jessika",
+      "address": "675 Emmett Alley"
+    },
+    {
+      "id": 6,
+      "name": "Derek",
+      "address": "908 Judge Drives"
+    }
+  ],
+  "purchases": [
+    {}
+  ]
 }

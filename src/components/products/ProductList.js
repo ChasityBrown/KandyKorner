@@ -5,7 +5,7 @@ export const ProductList = () => { //function/component that will render html wi
     // const [specialty, modifySpecialty] = useState([])
         useEffect(
             () => {
-                fetch("http://localhost:8088/products")
+                fetch("http://localhost:8088/products?_sort=productTypeId&_expand=productType")
                     .then(res => res.json())
                     .then((data) => {
                         updateProduct(data)
@@ -29,7 +29,7 @@ export const ProductList = () => { //function/component that will render html wi
             {
                 products.map(
                     (product) => {
-                        return <p key={`product--${product.id}`}>{product.id} {product.name} ${product.price} {product.productTypeId} </p>
+                        return <p key={`product--${product.id}`}>{product.id} {product.name} ${product.price} {product.productType.type} </p>
                     }
                 )
             }

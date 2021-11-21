@@ -20,7 +20,7 @@ export const Locations = () => { //function/component that will render html with
         {
             locations.map(
                 (locationObject) => { 
-                    return <h3 key= {`location--${locationObject.id}`}>{locationObject.name}</h3>
+                    return <p key= {`location--${locationObject.id}`}>{locationObject.name}: {locationObject.address}</p>
                 }
             )
         }
